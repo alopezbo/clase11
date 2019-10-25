@@ -54,7 +54,7 @@ print("I am ",kumquat.color)
 
 #========================================================================================================
 #Entonces,?Que sucede cuando no proporcionamos explicitamente un constructor para una clase?
-#?Puede python manejarlo? ?Por que no lo intentamos?
+#Puede python manejarlo? Por que no lo intentamos?
 #========================================================================================================
 
 class color:
@@ -73,11 +73,6 @@ class demo:
         print("Thank you for instantiating me :)")
 d=demo()
 d.show()
-
-
-#========================================================================================================
-#
-#========================================================================================================
 
 class demo:
     def __init__(self):

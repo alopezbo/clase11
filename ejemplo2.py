@@ -14,7 +14,7 @@ resultado=a**b
 print(resultado) #usando a=2 y b=10 el resultado va a ser 1024. 2 elevado a la 10
 
 #=================================================================
-#Ejemplo 3
+#Ejemplo 3. Funciones recursivas. Le permite dividir una tarea en subtareas
 #=================================================================
 def factorial(n):
     f=1
@@ -23,6 +23,17 @@ def factorial(n):
         n-=1
     print(f)
 factorial(4)
+
+#=================================================================
+#Ejemplo 4
+#=================================================================
+def factorial(numero):
+    print("Valor inicial ->",numero)
+    if numero>1:
+        numero=numero*factorial(numero -1)
+    print("valor final ->",numero)
+    return numero
+print (factorial(5))
 
 
     
